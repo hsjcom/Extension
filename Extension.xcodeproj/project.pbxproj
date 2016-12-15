@@ -15,6 +15,7 @@
 		B2F9EE771E02776100D9C4B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F9EE751E02776100D9C4B7 /* LaunchScreen.storyboard */; };
 		B2F9EE821E02776100D9C4B7 /* ExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EE811E02776100D9C4B7 /* ExtensionTests.m */; };
 		B2F9EE8D1E02776100D9C4B7 /* ExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EE8C1E02776100D9C4B7 /* ExtensionUITests.m */; };
+		B2F9EE9C1E0277CE00D9C4B7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EE9B1E0277CE00D9C4B7 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		B2F9EE881E02776100D9C4B7 /* ExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F9EE8C1E02776100D9C4B7 /* ExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionUITests.m; sourceTree = "<group>"; };
 		B2F9EE8E1E02776100D9C4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F9EE9A1E0277CE00D9C4B7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		B2F9EE9B1E0277CE00D9C4B7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		B2F9EE9D1E027ABF00D9C4B7 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,9 @@
 				B2F9EE6B1E02776100D9C4B7 /* AppDelegate.m */,
 				B2F9EE6D1E02776100D9C4B7 /* ViewController.h */,
 				B2F9EE6E1E02776100D9C4B7 /* ViewController.m */,
+				B2F9EE9A1E0277CE00D9C4B7 /* UIView+Extension.h */,
+				B2F9EE9B1E0277CE00D9C4B7 /* UIView+Extension.m */,
+				B2F9EE9D1E027ABF00D9C4B7 /* Constant.h */,
 				B2F9EE701E02776100D9C4B7 /* Main.storyboard */,
 				B2F9EE731E02776100D9C4B7 /* Assets.xcassets */,
 				B2F9EE751E02776100D9C4B7 /* LaunchScreen.storyboard */,
@@ -278,6 +285,7 @@
 			files = (
 				B2F9EE6F1E02776100D9C4B7 /* ViewController.m in Sources */,
 				B2F9EE6C1E02776100D9C4B7 /* AppDelegate.m in Sources */,
+				B2F9EE9C1E0277CE00D9C4B7 /* UIView+Extension.m in Sources */,
 				B2F9EE691E02776100D9C4B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
